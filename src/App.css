@@ -1,0 +1,182 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #040405;
+  color: #fff;
+  overflow: hidden;
+}
+
+/* Container Styles */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header Section */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 40px;
+  margin-left: 100px;
+}
+
+.header img{
+  height: 75px;
+}
+
+/* Main Content Styles */
+.main-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.app-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.btn {
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  outline: none;
+  border: none;
+}
+
+.apple-btn {
+  background-color: white;
+  color: black;
+}
+
+.google-btn {
+  background-color: white;
+  color: black;
+}
+
+.mockup-section {
+  display: flex;
+  gap: 20px;
+}
+
+.phone-mockup {
+  width: 200px;
+  border-radius: 15px;
+}
+
+/* Event Highlights */
+.event-highlights {
+  margin-top: 50px;
+  width: 80%;
+  gap: 20px;
+  position: relative;
+}
+
+.img{
+  height: auto;
+}
+
+.img img{
+  height: 600px;
+}
+
+.card1 {
+  background: linear-gradient(135deg, #6d28d9, #b91c1c);
+  width: 200px;
+  position: absolute;
+  border-radius: 2rem;
+}
+
+.event1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3px;
+  padding: 15px;
+}
+
+.event1 span{
+  background-color: #fff;
+  border-radius: 2rem;
+  color: black;
+  padding: 7px;
+  padding-left: 10px;
+  text-align: start;
+  font-size: small;
+}
+
+.card2 {
+  background: linear-gradient(135deg, #6d28d9, #b91c1c);
+  width: 200px;
+  position: absolute;
+  border-radius: 2rem;
+  top: 100px;
+  left: 800px;
+}
+
+
+.event2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3px;
+  padding: 15px;
+}
+
+.event2 span{
+  background-color: #fff;
+  border-radius: 2rem;
+  color: black;
+  padding: 7px;
+  padding-left: 10px;
+  font-size: small;
+  text-align: start;
+}
+
+.status {
+  font-size: 1.5rem;
+}
+
+.actions {
+  display: flex;
+  gap: 10px;
+}
+
+.accept,
+.reject {
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  font-weight: bold;
+}
+
+.accept {
+  background-color: #34d399;
+}
+
+.reject {
+  background-color: #ef4444;
+}
