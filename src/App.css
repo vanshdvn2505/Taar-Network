@@ -115,6 +115,23 @@ body {
   align-items: center;
   margin-bottom: 3px;
   padding: 15px;
+  /* position: relative; */
+}
+
+.tick1{
+  position: absolute;
+  background-size: cover;
+  height: 25px;
+  top: 25px;
+  left: 170px;
+}
+
+.tick2{
+  position: absolute;
+  background-size: cover;
+  height: 25px;
+  top: 100px;
+  left: 170px;
 }
 
 .event1 span{
@@ -145,7 +162,45 @@ body {
   padding: 15px;
 }
 
-.event2 span{
+.event21 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 7px;
+  background: #FFF;
+  color: black;
+  border-radius: 1.5rem;
+}
+
+.result{
+  display: flex;
+  gap: 15px;
+  margin-top: 0.5rem;
+}
+
+.result span{
+  font-size: smaller;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.acceptImg{
+  background-size: cover;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.removeImg{
+  background-size: cover;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.event2 .span1{
   background-color: #fff;
   border-radius: 2rem;
   color: black;
@@ -153,6 +208,10 @@ body {
   padding-left: 10px;
   font-size: small;
   text-align: start;
+}
+
+.event21 .span1{
+  font-size: smaller;
 }
 
 .status {

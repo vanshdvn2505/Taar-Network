@@ -3,6 +3,8 @@ import './App.css';
 import { FaApple, FaGooglePlay } from 'react-icons/fa';
 import bg from './assets/bg.png'
 import logo from './assets/logo.png'
+import check from './assets/check.png'
+import remove from './assets/remove.png'
 
 function App() {
   return (
@@ -38,10 +40,11 @@ function App() {
         <div className='card1'>
           <div className="event1">
             <span>Coldplay India concert 19th Nov '24</span>
-
+            <img src={check} alt="" className='tick1' />
           </div>
           <div className="event1">
             <span>Thump! Bangalore Half Marathon '24</span>
+            <img src={check} alt="" className='tick2' />
           </div>
         </div>
         <div className='img'>
@@ -49,10 +52,14 @@ function App() {
         </div>
         <div className='card2'>
           <div className="event2">
-            <span>Suyash is part of your connections now</span>
+            <span className='span1'>Suyash is part of your connections now</span>
           </div>
-          <div className="event2">
-            <span>Namita has sent you a connection request!</span>
+          <div className="event21">
+            <span className='span1'>Namita has sent you a connection request!</span>
+            <div className='result'>
+              <span><img src={check} alt="" className='acceptImg'/>Accept</span>
+              <span><img src={remove} alt="" className='removeImg'/> Remove</span>
+            </div>
           </div>
         </div>
       </div>
